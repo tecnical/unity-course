@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{39EEC89D-6142-326B-0015-8683397D36CD}</ProjectGuid>
+    <ProjectGuid>{3DE7DD73-2DD1-8CCD-D4C0-3CCE74FF003F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Enemy.cs" />
+    <Compile Include="Assets\Enemy_Archer.cs" />
+    <Compile Include="Assets\Enemy_Goblin.cs" />
+    <Compile Include="Assets\Cooldown_Example.cs" />
+    <Compile Include="Assets\PlayerAnimationEvents.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
